@@ -1,0 +1,67 @@
+@media screen and (max-width:1022px)
+{
+    .nav-toggle
+    {
+        display: block;
+        margin-right: 20px;
+    }
+    .main-nav{
+        overflow: initial;
+    }
+    .nav-links
+    {
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.4s ease-in-out;
+    }
+    .nav-links.active{
+        left: 0;
+    }
+    .nav-links ul{
+        flex-direction: column;
+    }
+    .example-area
+    {
+        gap: 20px;
+    }
+    .example-card{
+        width: calc(50% - 10px);
+    }
+}
+
+@media screen and (max-width:868px)
+{
+
+    .primary-button
+    {
+        display: block;
+        width: 100%;
+    }
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .header-left{
+        width: 100vw;
+        text-align: center;
+    }
+  
+}
+@media  screen and (max-width:676px) {
+    .footer-container{
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+    }
+    .link-column{
+        align-items: stretch;
+    }
+    .sub-footer-container{
+        flex-wrap: wrap;
+    }
+    
+}
