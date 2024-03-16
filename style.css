@@ -202,14 +202,16 @@ ul
     position: relative;
     min-height: 300px;
     background-color: black;
-    background: url(A.png);
+    background: url("https://images.unsplash.com/photo-1607883563234-3b65231e35f0?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHNtYWxsJTIwaW1hZ2VzfGVufDB8fDB8fHww");
     background-size: cover;
     background-repeat: no-repeat;
-    transition: 0.2s ease-out;
+    background-position:top;
+    transition: 0.3s ease-out;
 }
 .example-card:hover
 {
     box-shadow: 0 0 10px #888;
+    background-position:center;
 }
 .card-text
 {
